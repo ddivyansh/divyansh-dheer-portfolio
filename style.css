@@ -58,7 +58,7 @@ padding:0.5rem 1.2rem ;
 .list-inline
 {
     display: inline;
-    margin-left: 1rem;
+   
 }
 .nav
 {
@@ -76,7 +76,7 @@ padding:0.5rem 1.2rem ;
 .align a
 {
 color: white;
-margin-right: 1rem;
+
 }
 .nav .link-active
 {
