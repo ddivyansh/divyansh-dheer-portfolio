@@ -25,21 +25,24 @@ padding: 0rem 1rem;
 max-width: 900px;
 width: 100%;
 margin: auto;
+padding-bottom: 1rem;
 }
 .links
 {
     text-decoration: none;
     padding: 0.5rem 1rem;
     box-sizing: border-box;
+
 }
 .primary-link
 {
-margin: 1rem 2rem;
+margin: 2rem 2rem;
 color: white ;
 background-color: var(--primary-colour);
 border-radius: 2rem;
-padding:0.5rem 1.2rem ;
+padding: 0.5rem 1.2rem ;
 }
+
 .secondary-link
 {
     color:var(--primary-colour);
@@ -98,7 +101,7 @@ color: white;
 .section
 {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem 0rem;
     margin: 2rem 0rem;
     border-radius: 2rem;
 }
