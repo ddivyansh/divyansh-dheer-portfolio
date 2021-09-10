@@ -2,6 +2,8 @@
 :root
 {
     --primary-colour:#DC2626;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
 }
 body
 {
@@ -27,7 +29,8 @@ margin: auto;
 .links
 {
     text-decoration: none;
-    padding: 0.5rem ;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
 }
 .primary-link
 {
@@ -55,5 +58,70 @@ padding:0.5rem 1.2rem ;
 .list-inline
 {
     display: inline;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+}
+.nav
+{
+    background-color: var(--primary-colour);
+    color: white;
+    border-bottom-left-radius: 1.5rem;
+    padding: 1rem ;
+}
+
+.align
+{
+    text-align: right;
+    
+}
+.align a
+{
+color: white;
+margin-right: 1rem;
+}
+.nav .link-active
+{
+    font-weight: bold;
+}
+.hero
+{
+    margin: 0rem auto;
+    display: block;
+    max-width: 550px;
+    width: 85%;
+}
+.heading
+{
+    text-align: center;
+    margin: 0.5rem ;
+    color: grey;
+}
+.section
+{
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0rem;
+    border-radius: 2rem;
+}
+.off-white
+{
+    background-color:var(--off-white) ;
+
+}
+.footer
+{
+    text-align: center;
+    background-color: var(--primary-colour);
+    color: white;
+    border-top-right-radius: 1.5rem;
+    padding: 2rem 0rem;
+}
+.footer a
+{
+    color: white;
+ 
+}
+.footer div
+{
+    font-size: large;
+    font-weight: bold;
 }
